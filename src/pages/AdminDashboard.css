@@ -1,0 +1,120 @@
+.admin-dashboard {
+  background-color: #0f172a;
+  min-height: 100vh;
+  color: #e2e8f0;
+}
+
+.admin-container {
+  padding: 2rem;
+}
+
+.admin-title {
+  font-size: 2rem;
+  color: #22c55e;
+  margin-bottom: 0.5rem;
+}
+
+.admin-subtitle {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.no-data {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  padding: 2rem;
+}
+
+/* 📋 Table Styling */
+.loans-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.loans-table th,
+.loans-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.loans-table th {
+  background-color: #0f172a;
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.loans-table tr:hover {
+  background-color: #172554;
+}
+
+/* 🏷️ Status Badges */
+.status-badge {
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-badge.under-review {
+  background-color: #fbbf24;
+  color: #000;
+}
+
+.status-badge.verified {
+  background-color: #60a5fa;
+  color: #000;
+}
+
+.status-badge.approved {
+  background-color: #22c55e;
+  color: #000;
+}
+
+.status-badge.rejected {
+  background-color: #ef4444;
+  color: #fff;
+}
+
+/* ⚙️ Buttons */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+  font-size: 0.85rem;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn.under-review {
+  background-color: #fbbf24;
+}
+
+.btn.verify {
+  background-color: #60a5fa;
+}
+
+.btn.approve {
+  background-color: #22c55e;
+  color: white;
+}
+
+.btn.reject {
+  background-color: #ef4444;
+  color: white;
+}

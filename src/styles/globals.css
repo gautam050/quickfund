@@ -1,0 +1,14 @@
+:root{ --container: 1024px; --gap: 1rem; }
+body{ font-family: Arial, Helvetica, sans-serif; margin:0; padding:0; background:#f8f9fa; color:#222; }
+.container{ max-width: var(--container); margin: 0 auto; padding: 1rem; }
+.header{ background:rgb(22, 29, 96); padding:0.5rem 0; }
+.nav a{ margin-right:1rem; color:#000; text-decoration:none; font-weight:600; }
+.auth-page{ max-width:420px; margin:2rem auto; padding:1rem; border:1px solid #ddd; border-radius:8px; background:#fff; }
+.multi-step .progress{ margin-bottom:0.5rem; }
+.tracker{ display:flex; gap:1rem; align-items:center; }
+.stage{ text-align:center; opacity:0.4; }
+.stage.done{ opacity:1; }
+.stage .dot{ width:28px; height:28px; border-radius:50%; background:#ddd; display:inline-flex; align-items:center; justify-content:center; margin-bottom:6px; }
+.stage.done .dot{ background:#4551ba; color:#fff; }
+.loan-card{ border:1px solid #eee; padding:0.5rem; margin-bottom:0.5rem; border-radius:6px; background:#fff; }
+button{ cursor:pointer; padding:6px 10px; border-radius:6px; border:1px solid #ccc; background:#fff; }

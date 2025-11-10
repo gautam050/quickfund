@@ -1,0 +1,92 @@
+/* ===== Page Layout ===== */
+.auth-page {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+/* ===== Heading ===== */
+.auth-page h2 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* ===== Form ===== */
+.auth-page form {
+  background: #ffffff;
+  padding: 35px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ===== Inputs ===== */
+.auth-page input {
+  padding: 12px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.auth-page input:focus {
+  border-color: #2563eb;
+}
+
+/* ===== Button ===== */
+.auth-page button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.auth-page button:hover {
+  background-color: #1e40af;
+}
+
+/* ===== Footer Text ===== */
+.auth-page p {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+
+.auth-page a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-page a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 480px) {
+  .auth-page form {
+    padding: 30px 20px;
+  }
+
+  .auth-page h2 {
+    font-size: 1.7rem;
+  }
+}
